@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HITUNG UMUR"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANDA"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/txt_in_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="KUY!"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:fontFamily="@font/poppinssemibold"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp" />
+
+    <TextView
+        android:id="@+id/txt_selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:fontFamily="@font/poppinsregular"
+        android:textStyle="bold"
+        android:layout_marginLeft="3dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_selectedDateInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your age in Days"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="3dp" />
+
+</LinearLayout>
